@@ -292,7 +292,8 @@ img {
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
 }
-#home-a .specials .fas {
+#home-a .specials .fab,
+.fas {
   color: #ff4800;
   padding-bottom: 0.4rem;
 }
@@ -315,10 +316,10 @@ img {
   padding: 3rem 0;
 }
 #home-b .stats div:nth-child(odd) {
-  background: #f4f4f4;
+  background: #646464;
 }
 #home-b .stats div:nth-child(even) {
-  background: #ccc;
+  background: rgb(22, 21, 21);
 }
 
 #home-c .process {
@@ -514,6 +515,18 @@ img {
 }
 #main-footer .footer-content .social .fab:hover {
   background: #ff4800;
+}
+.fa-envelope {
+  color: #9c1200;
+}
+.fa-github {
+  color: #000;
+}
+.fa-linkedin {
+  color: #0077b5;
+}
+.fa-twitter {
+  color: #1da1f2;
 }
 
 @media (max-width: 800px) {

@@ -18,7 +18,9 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href="about.html">About</a>
+                <a href="https://1drv.ms/w/s!Ak145DmgCBuLgpID6zRDJ855ne3WLQ?e=6VVTUy">
+                  Resume
+                </a>
               </li>
               <li>
                 <a href="#work-a">Work</a>
@@ -31,10 +33,9 @@ function App() {
           <div className="header-content">
             <h1>I Am Harrison A Full-Stack Web Developer</h1>
             <p className="lead">
-              I specialize in Full-Stack Devolpment, proficient with the PERN
-              stack.
+              From Spokane Wa, proficient with the PERN stack.
             </p>
-            <a href="work.html" className="btn-light">
+            <a href="#work-a" className="btn-light">
               View My Work
             </a>
           </div>
@@ -43,16 +44,16 @@ function App() {
 
       <section id="home-a" className="text-center py-2">
         <div className="container">
-          <h2 className="section-title">I Specialize In</h2>
+          <h2 className="section-title">Technical Details</h2>
           <div className="bottom-line"></div>
           <p className="lead">
-            Photography as well as creating digital masterpieces and UI/UX
-            layouts for websites and mobile applications
+            I am a Full-Stack Web Developer proficient with the PERN Stack
           </p>
           <div className="specials">
             <div>
-              <i className="fas fa-file-alt fa-2x"></i>
-              <h3>Concepting</h3>
+              <i className="fab fa-css3-alt fa-2x"></i>
+
+              <h3>CSS</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Officiis, molestias repellat quibusdam adipisci quas sed ullam
@@ -60,8 +61,8 @@ function App() {
               </p>
             </div>
             <div>
-              <i className="fas fa-desktop fa-2x"></i>
-              <h3>UI/UX</h3>
+              <i className="fab fa-react fa-2x"></i>
+              <h3>React</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Officiis, molestias repellat quibusdam adipisci quas sed ullam
@@ -69,8 +70,8 @@ function App() {
               </p>
             </div>
             <div>
-              <i className="fas fa-object-ungroup fa-2x"></i>
-              <h3>Visual Design</h3>
+              <i className="fab fa-js-square fa-2x"></i>
+              <h3>JavaScript</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Officiis, molestias repellat quibusdam adipisci quas sed ullam
@@ -78,8 +79,44 @@ function App() {
               </p>
             </div>
             <div>
-              <i className="fas fa-thumbs-up fa-2x"></i>
-              <h3>Interaction</h3>
+              <i className="fab fa-node fa-2x"></i>
+              <h3>Node</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis, molestias repellat quibusdam adipisci quas sed ullam
+                accusantium aliquam numquam quidem.
+              </p>
+            </div>
+            <div>
+              <i className="fab fa-html5 fa-2x"></i>
+              <h3>HTML5</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis, molestias repellat quibusdam adipisci quas sed ullam
+                accusantium aliquam numquam quidem.
+              </p>
+            </div>
+            <div>
+              <i className="fab fa-python fa-2x"></i>
+              <h3>Python</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis, molestias repellat quibusdam adipisci quas sed ullam
+                accusantium aliquam numquam quidem.
+              </p>
+            </div>
+            <div>
+              <i className="fas fa-database fa-2x"></i>
+              <h3>Postgres</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis, molestias repellat quibusdam adipisci quas sed ullam
+                accusantium aliquam numquam quidem.
+              </p>
+            </div>
+            <div>
+              <i className="fab fa-git-square fa-2x"></i>
+              <h3>Git</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Officiis, molestias repellat quibusdam adipisci quas sed ullam
@@ -229,10 +266,18 @@ function App() {
         <div className="footer-content container">
           <p>Copyright &copy; 2020. All Rights Reserved</p>
           <div className="social">
-            <i className="fab fa-twitter"></i>
-            <i className="fab fa-facebook"></i>
-            <i className="fab fa-instagram"></i>
-            <i className="fab fa-linkedin"></i>
+            <a href="mailto:hmseaborn@gmail.com">
+              <i className="fab fa fa-envelope"></i>
+            </a>
+            <a href="https://twitter.com/HarrisonSeaborn">
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a href="https://github.com/HarrisonMS">
+              <i className="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/harrisonmichaelseaborn/">
+              <i className="fab fa-linkedin"></i>
+            </a>
           </div>
         </div>
       </footer>
