@@ -1,10 +1,19 @@
 import "./App.css";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import logo from "./img/logo.png";
 import item1 from "./img/items/item1.png";
 import item2 from "./img/items/item2.png";
 import item3 from "./img/items/item3.png";
 
 function App() {
+  const [user, setUser] = useState(null);
+  useEffect(() => {
+    axios.get("https://api.github.com/users/harrisonMS/repos").then((user) => {
+      setUser(user);
+    });
+  }, []);
+  console.log(user);
   return (
     <div classNameName="App">
       <header id="header-home">
@@ -47,12 +56,13 @@ function App() {
           <h2 className="section-title">Technical Details</h2>
           <div className="bottom-line"></div>
           <p className="lead">
-            I am a Full-Stack Web Developer proficient with the PERN Stack
+            I am a Full-Stack Web Developer proficient with the PERN Stack. I
+            have been programming since September 2019, in that time these are
+            some of the skils I have acquired.
           </p>
           <div className="specials">
             <div>
               <i className="fab fa-css3-alt fa-2x"></i>
-
               <h3>CSS</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -126,7 +136,6 @@ function App() {
           </div>
         </div>
       </section>
-
       <section id="home-b" className="text-center py-2">
         <div className="stats">
           <div>
