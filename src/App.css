@@ -265,6 +265,31 @@ img {
 #main-nav a.current {
   border-color: #ff4800;
 }
+#sub-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+#sub-nav ul {
+  display: flex;
+}
+#sub-nav li {
+  padding: 1rem 1.5rem;
+}
+#sub-nav a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s;
+}
+#sub-nav a:hover {
+  border-color: #ccc;
+}
+#sub-nav a.current {
+  border-color: #ff4800;
+}
 
 #header-home {
   background: url("./img/showcase.jpg") no-repeat center right/cover;
