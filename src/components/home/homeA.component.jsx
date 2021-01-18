@@ -1,16 +1,28 @@
 import React from "react";
-
+import LogoWorld from "../../img/items/logoWorldBare.svg";
 const HomeA = (props) => (
-  <section id="home-a" className="text-center py-2">
-    <div className="container">
-      <h2 className="section-title">Technical Details</h2>
-      <div className="bottom-line"></div>
-      <p className="lead">
-        I am a Full-Stack Web Developer proficient with the PERN Stack. I have
-        been programming since September 2019, in that time these are some of
-        the skils I have acquired.
-      </p>
-      <div className="specials">
+	<section id="home-a" className="text-center py-2">
+		<div className="container">
+			<h2 className="section-title">Technical Details</h2>
+			<div className="bottom-line"></div>
+			<p className="lead">
+				I am a Full-Stack Web Developer proficient with the PERN Stack. I have
+				been programming since September 2019, in that time these are some of
+				the skils I have acquired.
+			</p>
+			<div className="specials">
+				<div>
+					<i className="fab fa-css3-alt fa-2x"></i>
+					<h3>CSS</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+						molestias repellat quibusdam adipisci quas sed ullam accusantium
+						aliquam numquam quidem.
+					</p>
+				</div>
+				<img className="logo-world" src={LogoWorld} />
+			</div>
+			{/* <div className="specials">
         <div>
           <i className="fab fa-css3-alt fa-2x"></i>
           <h3>CSS</h3>
@@ -83,9 +95,9 @@ const HomeA = (props) => (
             aliquam numquam quidem.
           </p>
         </div>
-      </div>
-    </div>
-  </section>
+      </div> */}
+		</div>
+	</section>
 );
 
 export default HomeA;
