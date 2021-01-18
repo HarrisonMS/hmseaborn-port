@@ -1,5 +1,5 @@
 import React from "react";
-import LogoWorld from "../../img/items/logoWorldBare.svg";
+import LogoWorld from "../../img/items/logoWorld.svg";
 const HomeA = (props) => (
 	<section id="home-a" className="text-center py-2">
 		<div className="container">
