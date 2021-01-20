@@ -9,7 +9,7 @@ const HomeB = () => (
 						<i className="fas fa-users fa-3x"></i>
 					</li>
 					<li className="stats-title">Clients</li>
-					<li className="stats-number">1</li>
+					<li className="stats-number">2</li>
 				</ul>
 			</div>
 			<div>

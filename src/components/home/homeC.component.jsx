@@ -28,7 +28,7 @@ const HomeC = () => (
 					<i className="fas fa-desktop fa-4x process-icon my-2">
 						<div className="process-step">2</div>
 					</i>
-					<h3>Brainstorming Planning</h3>
+					<h3>Brainstorming ^ Planning</h3>
 					<p>
 						The planning of the project is probably one of the most imporant
 						steps in the process. This is where we need to organize what will be
@@ -60,12 +60,12 @@ const HomeC = () => (
 					<h3>Execution</h3>
 					<p>
 						Sticking to our laid out plan as closely as possible this is where
-						everything starts coming together. As we build use of communication
+						everything starts coming together. As we build, use of communication
 						tools like the trello board and having regular meetings with our
-						stakeholders is key. In these meetings we can show the progress we
-						have made and to adapt to the needs of our stakeholder and clients.
-						Following these four steps we can deliver products in a timely
-						manner that meet all the needs of our stakeholders.
+						stakeholders is key. We can show the progress we have made and adapt
+						to the needs of our stakeholder and clients. Following these four
+						steps we can deliver products in a timely manner that meets all the
+						needs of our stakeholders.
 					</p>
 				</div>
 			</div>
