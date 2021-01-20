@@ -77,6 +77,7 @@ input[class^="btn-"]:hover {
 
 .py-3 {
 	padding: 3rem 0;
+	padding-bottom: 0;
 }
 
 .py-4 {
@@ -625,7 +626,7 @@ h3 {
 		padding: 1rem;
 	}
 	#header-home {
-		height: 10rem;
+		height: 13rem;
 		border-bottom: 3px solid #ff4800;
 		background-position: 20% 30%;
 	}
@@ -695,8 +696,11 @@ h3 {
 	}
 	#main-footer .footer-content {
 		flex-direction: column;
-		padding: 1rem;
-		height: 5rem;
+		padding: 0.5rem;
+		height: 6rem;
+	}
+	#main-footer .footer-content p {
+		padding-bottom: 0.5rem;
 	}
 }
 
