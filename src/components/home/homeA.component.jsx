@@ -6,9 +6,9 @@ const HomeA = (props) => (
 			<h2 className="section-title">Technical Details</h2>
 			<div className="bottom-line"></div>
 			<p className="lead">
-				I am a Full-Stack Web Developer from Spokane, WA. I have been
-				programming since September 2019, in that time these are some of the
-				skills I have acquired displayed in a shelf I built using Figma.
+				I'm Harrison Seaborn from Spokane, WA. I'm a Full-Stack Developer I've
+				been programming since September 2019, in that time these are some of
+				the skills I have acquired displayed in a shelf I built using Figma.
 			</p>
 			<div className="specials">
 				<div>
