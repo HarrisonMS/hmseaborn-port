@@ -30,11 +30,11 @@ const HomeC = () => (
 					</i>
 					<h3>Brainstorming ^ Planning</h3>
 					<p>
-						The planning of the project is probably one of the most imporant
+						The planning of the project is probably one of the most important
 						steps in the process. This is where we need to organize what will be
 						done and by whom it will be done by. In this part of the process I
-						like to make use of a trello board and figma or a similar technology
-						to map out the user flow that we want to acheive for this project.
+						like to make use of a Trello board and Figma or a similar technology
+						to map out the user flow that we want to achieve for this project.
 						Also discuss what technologies we will use to complete the product.
 					</p>
 				</div>
@@ -46,11 +46,11 @@ const HomeC = () => (
 					<p>
 						If we have a UI/UX designer on our team this would be the time to go
 						over their wireframe design and discuss if the plan laid out can be
-						achieved by our team. On the other hand if we don't have a designer.
-						We would come up with a wireframe that dipicts the userflow and what
-						the clients would see as they traverse through the app. Color theme,
-						font styles and layout of our app accross multiple screen sizes will
-						also be discussed during this step.
+						achieved by our team. On the other hand, if we don't have a
+						designer. We would come up with a wireframe that dipicts the user
+						flow and what the clients would see as they traverse through the
+						app. Color theme, font styles and layout of our app across multiple
+						screen sizes will
 					</p>
 				</div>
 				<div>
@@ -61,11 +61,10 @@ const HomeC = () => (
 					<p>
 						Sticking to our laid out plan as closely as possible this is where
 						everything starts coming together. As we build, use of communication
-						tools like the trello board and having regular meetings with our
+						tools like a trello board and having regular meetings with our
 						stakeholders is key. We can show the progress we have made and adapt
 						to the needs of our stakeholder and clients. Following these four
 						steps we can deliver products in a timely manner that meets all the
-						needs of our stakeholders.
 					</p>
 				</div>
 			</div>

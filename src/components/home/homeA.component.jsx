@@ -7,7 +7,7 @@ const HomeA = (props) => (
 			<div className="bottom-line"></div>
 			<p className="lead">
 				I'm Harrison Seaborn from Spokane, WA. I'm a Full-Stack Developer I've
-				been programming since September 2019, in that time these are some of
+				been programming since September 2019, at that time these are some of
 				the skills I have acquired displayed in a shelf I built using Figma.
 			</p>
 			<div className="specials">
@@ -16,10 +16,10 @@ const HomeA = (props) => (
 
 					<h3>Skills</h3>
 					<p>
-						Coming from a background in construction I try and use skills I
+						Coming from a background in construction I try and use the skills I
 						learned such as attention to detail, communication and following a
-						plan, In order to build buitiful websites. I am proficient with CSS,
-						HTML, JavaScript, React, Node, and Express.js. I am constantly
+						plan, In order to build beautiful websites. I am proficient with
+						CSS, HTML, JavaScript, React, Node, and Express.Js. I am constantly
 						trying to widen my skill base by learning new languages and
 						libraries. As of now I am looking to improve on my problem solving
 						skills with daily code challenges using either Python or JavaScript.
