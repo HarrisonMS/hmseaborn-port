@@ -12,66 +12,66 @@ const Work = () => (
 			<p className="lead">Check out some of my projects</p>
 			<div className="items">
 				<div className="item">
-					<Link
+					{/* <Link
 						to="route"
 						target="_blank"
 						onClick={(event) => {
 							event.preventDefault();
 							window.open("https://royalclothes.herokuapp.com/");
 						}}
-					>
-						<div className="item-image">
-							<img src={item1} alt="" />
+					> */}
+					<div className="item-image">
+						<img src={item1} alt="" />
+					</div>
+					<div className="item-text">
+						<div className="item-text-wrap">
+							<p className="item-text-category">Marketing</p>
+							<h2 className="item-text-title">JS | HTML | CSS</h2>
 						</div>
-						<div className="item-text">
-							<div className="item-text-wrap">
-								<p className="item-text-category">Marketing</p>
-								<h2 className="item-text-title">JS | HTML | CSS</h2>
-							</div>
-						</div>
-					</Link>
+					</div>
+					{/* </Link> */}
 				</div>
 				<div className="item">
-					<Link
+					{/* <Link
 						to="route"
 						target="_blank"
 						onClick={(event) => {
 							event.preventDefault();
 							window.open("https://royalclothes.herokuapp.com/");
 						}}
-					>
-						<div className="item-image">
-							<img src={item2} alt="" />
+					> */}
+					<div className="item-image">
+						<img src={item2} alt="" />
+					</div>
+					<div className="item-text">
+						<div className="item-text-wrap">
+							<p className="item-text-category">Eccommerce</p>
+							<h2 className="item-text-title">
+								React | Redux | Firebase | Styled-Components
+							</h2>
 						</div>
-						<div className="item-text">
-							<div className="item-text-wrap">
-								<p className="item-text-category">Eccommerce</p>
-								<h2 className="item-text-title">
-									React | Redux | Firebase | Styled-Components
-								</h2>
-							</div>
-						</div>
-					</Link>
+					</div>
+					{/* </Link> */}
 				</div>
 				<div className="item">
-					<Link
+					{/* <Link
 						to="route"
 						target="_blank"
 						onClick={(event) => {
 							event.preventDefault();
 							window.open("https://royalclothes.herokuapp.com/");
 						}}
-					>
-						<div className="item-image">
-							<img src={item3} alt="" />
+					> */}
+					<div className="item-image">
+						<img src={item3} alt="" />
+					</div>
+					<div className="item-text">
+						<div className="item-text-wrap">
+							<p className="item-text-category">Marketing</p>
+							<h2 className="item-text-title">React | Styled-Components</h2>
 						</div>
-						<div className="item-text">
-							<div className="item-text-wrap">
-								<p className="item-text-category">Marketing</p>
-								<h2 className="item-text-title">React | Styled-Components</h2>
-							</div>
-						</div>
-					</Link>
+					</div>
+					{/* </Link> */}
 				</div>
 			</div>
 		</div>
