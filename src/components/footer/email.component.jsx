@@ -32,7 +32,7 @@ export default class MyForm extends React.Component {
 							Thanks you for contacting me. I will be in touch with you Asap.
 						</p>
 					) : (
-						<button>Submit</button>
+						<button id="form-button">Submit</button>
 					)}
 					{status === "ERROR" && <p>Ooops! There was an error.</p>}
 				</div>
@@ -58,40 +58,4 @@ export default class MyForm extends React.Component {
 		};
 		xhr.send(data);
 	}
-}
-
-{
-	/* <form class="my-form">
-  <div class="container">
-    <h1>Get in touch!</h1>
-    <ul>
-      <li>
-        <div class="grid grid-2">
-          <input type="text" placeholder="Name" required>  
-          <input type="email" placeholder="Email" required>  
-        </div>
-      </li>
-      <li>
-        <textarea placeholder="Message"></textarea>
-      </li>   
-      <li>
-        <div class="grid grid-3">
-          <div class="required-msg">REQUIRED FIELDS</div>
-          <button class="btn-grid" type="submit" disabled>
-            <span class="back">
-              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
-            </span>
-            <span class="front">SUBMIT</span>
-          </button>
-          <button class="btn-grid" type="reset" disabled>
-            <span class="back">
-              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
-            </span>
-            <span class="front">RESET</span>
-          </button> 
-        </div>
-      </li>    
-    </ul>
-  </div>
-</form> */
 }

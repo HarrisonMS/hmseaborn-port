@@ -4,7 +4,8 @@ const Footer = () => (
 	<footer id="main-footer">
 		<MyForm />
 		<div className="footer-content container">
-			<p>Copyright &copy; 2020. All Rights Reserved</p>
+			<p class="cp-text">© Copyright 2020. All rights reserved.</p>
+			{/* <p>Copyright &copy; 2020. All Rights Reserved</p> */}
 			<div className="social">
 				<a href="mailto:hmseaborn@gmail.com">
 					<i className="fab fa fa-envelope"></i>
