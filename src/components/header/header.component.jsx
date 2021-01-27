@@ -25,12 +25,21 @@ const Header = () => (
 				</ul>
 			</nav>
 			<div className="header-content">
-				<h1>
+				<h1>Hello, I'm Harrison Seaborn</h1>
+				{/* <h1>
 					Hello, I'm <span className="span-orange">Harrison Seaborn</span>
-				</h1>{" "}
+				</h1>{" "} */}
 				<br />
 				<h1>I'm a full-stack developer</h1>
-				<p className="lead">From Spokane Wa, proficient with the PERN stack.</p>
+				<p className="lead">
+					From Spokane Wa, proficient with the{" "}
+					<span
+						title="Postgres | Express | React | Node.js"
+						className="tooltip"
+					>
+						PERN stack.
+					</span>{" "}
+				</p>
 				<a href="#work-a" className="btn-light">
 					View My Work
 				</a>

@@ -11,7 +11,7 @@ function Resume() {
 				<Link to="/">Home</Link>
 			</nav>
 			<iframe
-				src="https://onedrive.live.com/embed?cid=8B1B08A039E4784D&resid=8B1B08A039E4784D%2135136&authkey=ABzewU2V5apw5bo&em=2"
+				src="https://onedrive.live.com/embed?cid=8B1B08A039E4784D&resid=8B1B08A039E4784D%2135146&authkey=AFkE1oNzEX7jHbc&em=2"
 				width="100%"
 				height="100%"
 				frameborder="0"
