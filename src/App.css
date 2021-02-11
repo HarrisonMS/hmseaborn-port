@@ -582,6 +582,8 @@ textarea {
 	transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25),
 		transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
 }
+.contact-form input {
+}
 #form-button {
 	width: 10rem;
 	cursor: pointer;
