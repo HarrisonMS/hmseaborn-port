@@ -780,8 +780,6 @@ textarea {
 		border-color: #333 transparent;
 		border-width: 12px 6px 0 6px;
 		content: "";
-		/* padding-left: 100%; */
-		/* bottom: 1px; */
 		position: absolute;
 	}
 }
