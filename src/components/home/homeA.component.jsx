@@ -27,7 +27,11 @@ const HomeA = (props) => (
 						such as Figma and Whimsical to bring my ideas to the page.
 					</p>
 				</div>
-				<img className="logo-world" src={LogoWorld} />
+				<img
+					className="logo-world"
+					src={LogoWorld}
+					alt="circular shelf holding dev Icons"
+				/>
 			</div>
 		</div>
 	</section>

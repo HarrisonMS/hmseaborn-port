@@ -1,9 +1,7 @@
 import "./App.css";
-import React, { useState, useEffect } from "react";
-import { Route, Switch, Link } from "react-router-dom";
-import axios from "axios";
+import React from "react";
+import { Route } from "react-router-dom";
 import HomePage from "./pages/homePage/homePage";
-import Resume from "./components/resume/resume.component";
 
 function App() {
 	return (
