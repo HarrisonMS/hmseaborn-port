@@ -16,14 +16,15 @@ function App() {
 	return (
 		<div className="App">
 			<Route exact path="/" component={HomePage} />
-			<Route exact path="/resume" component={Resume} />
+			{/* <Route exact path="/resume" component={Resume} /> */}
 			{/* <Route
-				path="/royalclothes"
+				path="/resume"
 				component={() => {
-					window.location.href = "https://royalclothes.herokuapp.com/";
+					window.location.href =
+						"https://drive.google.com/file/d/1BLi4oYmla4yprZ_oVK9pZLFtWEgcIGmD/view?usp=sharing";
 					return null;
-				}}
-			/> */}
+				}} */}
+			/>
 		</div>
 	);
 }

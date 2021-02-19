@@ -9,12 +9,17 @@ const Header = () => (
 				<img src={logo} alt="My Portfolio" id="logo" />
 				<ul>
 					<li>
-						<a href="index.html" className="current">
-							Home
-						</a>
+						<Link to="/">Home</Link>
 					</li>
 					<li>
-						<Link to="/resume">Resume</Link>
+						{/* <Link to="/resume">Resume</Link> */}
+						<a
+							rel="noopener noreferrer"
+							href="https://drive.google.com/file/d/1NaygD1CMUlFWsi5TdPPiB65Ov5eJVmY_/view?usp=sharing"
+							className="current"
+						>
+							Resume
+						</a>
 					</li>
 					<li>
 						<a href="#work-a">Work</a>

@@ -271,11 +271,11 @@ h3 {
 	transition: border-color 0.5s;
 }
 #main-nav a:hover {
-	border-color: #ccc;
-}
-#main-nav a.current {
 	border-color: #ff4800;
 }
+/* #main-nav a.current {
+	border-color: #ff4800;
+} */
 #sub-nav {
 	display: flex;
 	justify-content: space-between;
@@ -628,6 +628,12 @@ textarea {
 }
 .fa-twitter {
 	color: #1da1f2;
+}
+.navbar .navbar-default .navbar-fixed-top .main-navbar {
+	display: none !important;
+}
+.main-navbar .navbar {
+	display: none !important;
 }
 @media (max-width: 1024px) {
 	/* .logo-world {
