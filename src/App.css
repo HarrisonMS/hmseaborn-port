@@ -27,6 +27,19 @@
 	color: #333;
 	background-color: #f4f4f4;
 }
+.btn-light:active {
+	transition: 0.2s all;
+	transform: translateY(1px);
+
+	background-color: darken(#ff4800, 50%);
+	border-radius: 3px;
+	opacity: 0.8;
+}
+/* 
+
+
+
+*/
 
 .btn-dark {
 	color: #f4f4f4;
