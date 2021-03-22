@@ -31,13 +31,10 @@ const Header = () => (
 			</nav>
 			<div className="header-content">
 				<h1>Hello, I'm Harrison Seaborn</h1>
-				{/* <h1>
-					Hello, I'm <span className="span-orange">Harrison Seaborn</span>
-				</h1>{" "} */}
 				<br />
-				<h1>I'm a full-stack developer</h1>
+				<h1>a full-stack developer</h1>
 				<p className="lead">
-					From Spokane Wa, proficient with the{" "}
+					From Spokane WA, proficient with the{" "}
 					<span
 						title="Postgres | Express | React | Node.js"
 						className="tooltip"

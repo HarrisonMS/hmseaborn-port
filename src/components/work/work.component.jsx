@@ -1,7 +1,7 @@
 import React from "react";
 import item1 from "../../img/items/item1.png";
 import item2 from "../../img/items/item2.png";
-import item3 from "../../img/items/item3.png";
+import item3 from "../../img/items/storysquad.PNG";
 import { Link } from "react-router-dom";
 
 const Work = () => (
@@ -17,7 +17,7 @@ const Work = () => (
 						target="_blank"
 						onClick={(event) => {
 							event.preventDefault();
-							window.open("https://github.com/HarrisonMS/marketing");
+							window.open("https://auto-matics.vercel.app/");
 						}}
 					>
 						<div className="item-image">
@@ -37,7 +37,7 @@ const Work = () => (
 						target="_blank"
 						onClick={(event) => {
 							event.preventDefault();
-							window.open("https://github.com/HarrisonMS/e-commerce");
+							window.open("https://royalclothes.herokuapp.com/");
 						}}
 					>
 						<div className="item-image">
@@ -67,8 +67,10 @@ const Work = () => (
 						</div>
 						<div className="item-text">
 							<div className="item-text-wrap">
-								<p className="item-text-category">Marketing</p>
-								<h2 className="item-text-title">React | Styled-Components</h2>
+								<p className="item-text-category">Story Squad</p>
+								<h2 className="item-text-title">
+									React | Styled-Components | Postgres | AWS
+								</h2>
 							</div>
 						</div>
 					</Link>

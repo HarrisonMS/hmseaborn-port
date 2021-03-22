@@ -184,7 +184,7 @@ input[class^="btn-"]:hover {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	line-height: 0;
 }
 .item-text {
@@ -254,8 +254,8 @@ h3 {
 } */
 
 #logo {
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	color: #fff;
 	text-transform: uppercase;
 }
@@ -273,7 +273,11 @@ h3 {
 	display: flex;
 }
 #main-nav li {
-	padding: 1rem 1.5rem;
+	padding: 1rem 4.5rem;
+}
+#main-nav li:last-child {
+	padding: 1rem 0rem;
+	padding-left: 4.5rem;
 }
 #main-nav a {
 	text-decoration: none;
@@ -349,7 +353,7 @@ h3 {
 }
 #header-home .header-content {
 	text-align: center;
-	padding-top: 18%;
+	padding-top: 15%;
 }
 #header-home .header-content h1 {
 	font-size: 7rem;
@@ -634,7 +638,7 @@ textarea {
 	color: #9c1200;
 }
 .fa-github {
-	color: #000;
+	color: #333;
 }
 .fa-linkedin {
 	color: #0077b5;

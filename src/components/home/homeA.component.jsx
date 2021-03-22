@@ -16,15 +16,13 @@ const HomeA = (props) => (
 
 					<h3>Skills</h3>
 					<p>
-						Coming from a background in construction I try and use the skills I
-						learned such as attention to detail, communication and following a
-						plan, In order to build beautiful websites. I am proficient with
-						CSS, HTML, JavaScript, React, Node, and Express.Js. I am constantly
-						trying to widen my skill base by learning new languages and
-						libraries. As of now I am looking to improve on my problem solving
-						skills with daily code challenges using either Python or JavaScript.
-						I am also focusing on improving my design skills and using tools
-						such as Figma and Whimsical to bring my ideas to the page.
+						I am proficient with CSS, HTML, JavaScript, React, Node, and
+						Express.Js. I am constantly trying to widen my skill base by
+						learning new languages and libraries. As of now I am looking to
+						improve on my problem solving skills with daily code challenges
+						using either Python or JavaScript. I am also focusing on improving
+						my design skills and using tools such as Figma and Whimsical to
+						bring my ideas to the page.
 					</p>
 				</div>
 				<img
