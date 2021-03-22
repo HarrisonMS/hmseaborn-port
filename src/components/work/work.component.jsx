@@ -59,7 +59,7 @@ const Work = () => (
 						target="_blank"
 						onClick={(event) => {
 							event.preventDefault();
-							window.open("https://royalclothes.herokuapp.com/");
+							window.open("https://github.com/HarrisonMS/story-squad-be-a");
 						}}
 					>
 						<div className="item-image">
