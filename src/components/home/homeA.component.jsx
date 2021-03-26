@@ -7,7 +7,7 @@ const HomeA = (props) => (
 			<div className="bottom-line"></div>
 			<p className="lead">
 				I'm Harrison Seaborn from Spokane, WA. I'm a Full-Stack Developer I've
-				been programming since September 2019, at that time these are some of
+				been programming since September 2019, at this time these are some of
 				the skills I have acquired displayed in a shelf I built using Figma.
 			</p>
 			<div className="specials">

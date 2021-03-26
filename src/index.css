@@ -8,11 +8,20 @@ body {
 	margin: 0;
 	font-size: 1.7rem;
 	line-height: 1.5;
-	font-family: "PT Serif", serif;
 }
 h1 {
 	font-family: "Catamaran", sans-serif;
+	font-size: 7rem;
+}
+
+h2 {
+	font-family: "Catamaran", sans-serif;
 	font-size: 4rem;
+}
+h3 {
+	font-family: "Catamaran", sans-serif;
+	margin-bottom: 2rem;
+	font-size: 3rem;
 }
 
 /* body {
