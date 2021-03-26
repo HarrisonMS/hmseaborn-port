@@ -438,11 +438,12 @@ h3 {
 	position: relative;
 	transition: all 1s;
 }
+
 #home-c .process-icon:hover {
 	background: #ff4800;
 	width: 90px;
-	height: 90px;
-	line-height: 90px;
+	height: 70px;
+	line-height: 70px;
 }
 #home-c .process-icon:hover .process-step {
 	background: #333;
