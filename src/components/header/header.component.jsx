@@ -31,7 +31,7 @@ const Header = () => (
 			</nav>
 			<div className="header-content">
 				<h1>Hello, I'm Harrison Seaborn</h1>
-				<br />
+
 				<h1>a full-stack developer</h1>
 				<p className="lead">
 					From Spokane WA, proficient with the{" "}
