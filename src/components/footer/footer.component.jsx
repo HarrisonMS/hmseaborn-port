@@ -7,7 +7,7 @@ const Footer = () => (
 			<p className="cp-text">© Copyright 2020. All rights reserved.</p>
 			{/* <p>Copyright &copy; 2020. All Rights Reserved</p> */}
 			<div className="social">
-				<a href="mailto:hmseaborn@gmail.com">
+				<a href="mailto:hm.born.dev@gmail.com">
 					<i className="fab fa fa-envelope"></i>
 				</a>
 				<a href="https://twitter.com/HarrisonSeaborn">

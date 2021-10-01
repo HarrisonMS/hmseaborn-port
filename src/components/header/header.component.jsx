@@ -15,7 +15,8 @@ const Header = () => (
 						{/* <Link to="/resume">Resume</Link> */}
 						<a
 							rel="noopener noreferrer"
-							href="https://drive.google.com/file/d/1NVggA9M-v15eKPYZioXMRzDd2zf7D4ex/view?usp=sharing"
+							target="_blank"
+							href="https://drive.google.com/file/d/1cvZlnrPz3rQ63ps5SPdXcxKeyB94UNHe/view?usp=sharing"
 							className="current"
 						>
 							Resume
