@@ -16,7 +16,7 @@ const Header = () => (
 						<a
 							rel="noopener noreferrer"
 							target="_blank"
-							href="https://drive.google.com/file/d/1cvZlnrPz3rQ63ps5SPdXcxKeyB94UNHe/view?usp=sharing"
+							href="https://drive.google.com/file/d/1vMtC6jHmiBE3UJ1fopNNQRWGgnKcLu7c/view?usp=sharing"
 							className="current"
 						>
 							Resume
